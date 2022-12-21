@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <style>
+        h1{
+            color: rgb(22, 92, 189);
+            text-align: center;
+        }
+        h2{
+            color: rgb(10, 150, 250);
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="inicio">HTML</h1>
+    <hr>
+    <h2>Índice</h2>
+    <li><a href="#HTML">O que é HTML?</a></li>
+    <li><a href="#tags">O que são as tags?</a></li>
+    <li><a href="#referencias">Referências</a></li><br>
+    <hr>
+    <h2 id="HTML">O que é HTML?</h2>
+    <p>A <abbr title="Hypertext Markup Language">HTML</abbr> - <i>Linguagem de Marcação de Hipertexto</i> é utilizada junto com CSS e Javascript para o desenvolvimento de sites. Seria inadequado dizer "Eu <del>programo</del> em HTML" visto que não funciona com instruções como as linguagens de programação. Focada no <strong>conteúdo do site</strong>, utiliza as chamadas tags para a construção do site.</p>
+    <small><a href="#inicio">Voltar &#x2B06</a></small><br>
+    <hr>
+    <h2 id="tags">O que são as tags?</h2>
+    <p>É o conjunto de palavras entre os sinais de colchete angular (<mark><strong>&lt; &gt;</strong></mark>). As tags <strong>informam ao navegador a estrutura da página</strong>.</p>
+        <ul>
+            <li><b>&lt;!DOCTYPE html&gt;</b>: esta tag informa ao navegador a versão do HTML.</li>
+        </ul>
+        
+        <p>A maioria das tags possuem abertura e fechamento, sendo o fechamento identificado pela barra. Exemplos:</p>
+    <ul>
+        <li><b>&lt;head&gt; &lt;/head&gt;</b>: delimita o cabeçalho do documento;</li>
+        <li><b>&lt;body&gt; &lt;/body&gt</b>: define o corpo do documento;</li>
+        <li><b>&lt;h1&gt; &lt;/h1&gt;</b> (de h1 até h6): define os títulos, sendo h1 o maior valor hierárquico decrescendo até h6 de menor valor. H1 utilizado para título principal e os outros como subtítulos; </li>
+        <li><b>&lt;p&gt; &lt;/p&gt;</b>: define o parágrafo</li>
+        <li><b>&lt;ol&gt; &lt;/ol&gt;</b> e <b>&lt;ul&gt; &lt;/ul&gt;</b>: criam listas ordenadas e não ordenadas, respectivamente, utilizadas com<b> &lt;li&gt; &lt;/li&gt;</b> que define um item da lista;</li>
+        <li><b>&lt;sup&gt; &lt;/sup&gt;</b>: define um texto sobrescrito - x<sup>3</sup>;</li>
+        <li><b>&lt;sub&gt; &lt;/sub&gt;</b> define um texto subscrito - H<sub>2</sub>O.</li>
+    </ul>
+    
+    <p> As tags também podem ter atributos e valores:</p>
+    <ul>
+        <li> <b>&lt;html lang="pt-br"&gt; &lt;/html&gt;</b>:  contém todos os elementos do documento HTML, com o atributo lang para definir o idioma como português brasileiro;</li>
+        <li><b>&lt; a href="destino.html"&gt;<span style="text-decoration: underline;">Clique aqui</span> &lt;/a&gt;</b>: <span style="text-decoration: underline;">tag a (âncora)</span> utlizada para criar um link, com o <span style="text-decoration: underline;">atributo href</span> que é a página  destino.</li>
+    </ul>
+    <p>Algumas tags não possuem fechamento:
+        <ul>
+            <li><b>&lt;br&gt;</b>: utilizada para quebrar linha;</li>
+            <li><b>&lt;img&gt;</b>: utilizada para inserir uma imagem.</li>
+        </ul>
+    </p>
+    <small><a href="#inicio">Voltar &#x2B06</a></small>
+    <br>
+    <hr>
+    <hr>
+    <blockquote>
+        "The goal of the Web is to serve humanity. We build it now so that those who come to it later will be able to create things that we cannot ourselves imagine." - <em>Tim Berners Lee</em>
+    </blockquote>
+    <hr>
+    <hr>
+    <h2 id="referencias">Referências</h2>
+    <ul>
+        <li> <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/03%20-%20Como%20funciona%20HTML%20e%20CSS.pdf">Como funciona HTML e CSS - Gustavo Guanabara</a></li>
+        <li> <a href="https://www.w3schools.com/TAGS/default.asp">Elementos HTML - W3Schools</a></li>
+        <li> <a href="https://www.homehost.com.br/blog/tutoriais/tags-html/">Tags HTML - Home Host</a></li>
+    </ul>
+    <small><a href="#inicio">Voltar &#x2B06</a></small>
+    <br>
+    <hr>
+</body>
+</html>
